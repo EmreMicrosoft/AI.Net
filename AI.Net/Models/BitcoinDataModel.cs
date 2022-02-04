@@ -2,7 +2,7 @@
 
 namespace AI.Net.Models;
 
-public class BitcoinInputModel
+public class BitcoinDataModel
 {
     [LoadColumn(0)]
     public string OpenTime { get; set; }

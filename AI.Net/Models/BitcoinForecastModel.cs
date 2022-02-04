@@ -1,6 +1,6 @@
 ﻿namespace AI.Net.Models;
 
-public class BitcoinOutputModel
+public class BitcoinForecastModel
 {
     public float[] PredictedValues { get; set; }
     public float[] LowerBoundValues { get; set; }

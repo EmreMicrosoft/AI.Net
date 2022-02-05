@@ -5,7 +5,7 @@ namespace AI.Net.Models;
 public class BitcoinDataModel
 {
     [LoadColumn(0)]
-    public string OpenTime { get; set; }
+    public DateTime OpenTime { get; set; }
 
     [LoadColumn(1)]
     public float Open { get; set; }
@@ -23,7 +23,7 @@ public class BitcoinDataModel
     public float BaseVolume { get; set; }
 
     [LoadColumn(6)]
-    public string CloseTime { get; set; }
+    public DateTime CloseTime { get; set; }
 
     [LoadColumn(7)]
     public float QuoteVolume { get; set; }

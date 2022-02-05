@@ -29,7 +29,7 @@ public class BitcoinDataModel
     public float QuoteVolume { get; set; }
 
     [LoadColumn(8)]
-    public int TradeCount { get; set; }
+    public float TradeCount { get; set; }
 
     [LoadColumn(9)]
     public float TakerBuyBaseVolume { get; set; }
